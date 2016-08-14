@@ -1,0 +1,28 @@
+.categorys{overflow:hidden}
+.categorys .item{
+    width:50%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    float:left;
+    box-sizing:border-box;
+}
+.categorys .item:nth-child(2n){
+    border-left:1px solid #e3e3e3;
+}
+.categorys .item:nth-child(2n+1),.categorys .item:nth-child(2n+2){
+    border-top:1px solid #e3e3e3;
+}
+.categorys .item span{
+    margin: auto;
+    font-size: 16px;
+    height: 50px;
+    line-height: 52px;
+    width: 97px;
+    text-align: right;
+    background-size: 22px 21px;
+    display: block;
+    background-repeat:no-repeat;
+    background-position:0 center;
+}

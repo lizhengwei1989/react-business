@@ -1,0 +1,19 @@
+.menus{}
+.menus .price_brand {
+    overflow:hidden;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    background: #fff;
+    margin-bottom: 12px;
+    position: relative;
+    display:none;
+}
+.menus .price_brand .item{
+    float: left;
+    text-align: center;
+    border-right: 1px solid #e3e3e3;
+    margin: 12px 0;
+    width: 25%;
+    box-sizing: border-box;
+    font-size: 14px
+}
